@@ -1,0 +1,16 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "KU564"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

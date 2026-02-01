@@ -1,0 +1,25 @@
+{
+  "query": [
+    {
+      "code": "Alue",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "KU564"
+        ]
+      }
+    },
+    {
+      "code": "Tiedot",
+      "selection": {
+        "filter": "item",
+        "values": [
+          "vaesto"
+        ]
+      }
+    }
+  ],
+  "response": {
+    "format": "json-stat2"
+  }
+}

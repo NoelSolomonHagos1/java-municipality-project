@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationFrag"
+    android:background="#ffcc88">
+
+    <TextView
+        android:id="@+id/txtMunicipality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="Kunnan nimi"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="40dp"
+        android:text="Väkiluku"/>
+
+    <TextView
+        android:id="@+id/txtIncrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="70dp"
+        android:text="Väestönlisäys"/>
+
+    <TextView
+        android:id="@+id/txtWorkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="100dp"
+        android:text="Työpaikkaomavaraisuus"/>
+
+    <TextView
+        android:id="@+id/txtRatee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="130dp"
+        android:text="Työllisyysaste"/>
+
+    <TextView
+        android:id="@+id/txtDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="160dp"
+        android:text="Väestönvähentyminen"/>
+
+    <TextView
+        android:id="@+id/txtWeatherr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|left"
+        android:layout_marginTop="300dp"/>
+
+
+</FrameLayout>

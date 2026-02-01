@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="10dp"
+        android:background="#E91EAF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtWeather2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grocery name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtPopulation2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grocery note"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txtWork2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textRate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
